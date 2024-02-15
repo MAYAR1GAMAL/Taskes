@@ -1,0 +1,78 @@
+Test Plan:
+	Application: LinkedIn
+	Testing Ideas:
+
+		1.UI/UX Testing
+		2.Functional Testing (Profile creation, connection requests, messaging)
+		3.Compatibility Testing (iOS, Android, different screen sizes)
+		4.Performance Testing (App load time, response time)
+		5.Security Testing (Data encryption, secure login)
+		6.Accessibility Testing (Screen reader compatibility, text size options)
+		7.Localization Testing (Language support)
+
+Test Case Prioritization:
+
+	High Priority:
+		Authentication and profile creation
+		Messaging and connection requests
+		UI/UX issues affecting core functionalities
+
+	Medium Priority:
+		Compatibility Testing (iOS, Android, different screen sizes)
+		Performance Testing (App load time, response time)
+
+	Low Priority:
+		Localization Testing (Language support)
+
+
+Bug Report:
+
+	Bug Title 1: Unable to Send Messages
+		Reproduce Steps:
+			Open the LinkedIn mobile app.
+			Navigate to the messaging feature.
+			Attempt to send a message to a connection.
+		Attachments: showing the error message.
+		Severity: Critical
+		Priority: High
+
+	Bug Title 2: Profile Picture Not Displaying
+		Reproduce Steps:
+			Access your LinkedIn profile.
+			Verify the profile picture display area.
+		Attachments: Screenshots showing the empty profile picture space.
+		Severity: Major
+		Priority: Medium
+
+	Bug Title 3: Inconsistent Job Postings Display
+		Reproduce Steps:
+			Navigate to the "Jobs" section of the app.
+			Browse through job listings.
+		Attachments: Screenshots showing duplicate or missing job postings.
+		Severity: Major
+		Priority: High
+
+	Bug Title 4: Connection Requests Not Being Sent
+		Reproduce Steps:
+			Visit a user's profile.
+			Click on the "Connect" button.
+			Check the status of the connection request.
+		Attachments: Screenshots showing the absence of sent connection requests.
+		Severity: Critical
+		Priority: High
+
+	Bug Title 5: Incorrect Profile Information Displayed
+		Reproduce Steps:
+			Access your LinkedIn profile.
+			Review the displayed profile information (e.g., name, job title).
+		Attachments: Screenshots comparing the displayed information with the actual profile data.
+		Severity: Major
+		Priority: High
+
+	Bug Title 6: Notification Badge Not Updating
+		Reproduce Steps:
+			Receive a new notification (e.g., message, connection request).
+			Check the notification badge on the app icon.
+		Attachments: Screenshots showing the outdated notification badge count.
+		Severity: Minor
+		Priority: Low
