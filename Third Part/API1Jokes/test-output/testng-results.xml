@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-15T10:37:06Z" name="Default Suite" finished-at="2024-02-15T10:37:11Z" duration-ms="5152">
+    <groups>
+    </groups>
+    <test started-at="2024-02-15T10:37:06Z" name="API1Jokes" finished-at="2024-02-15T10:37:11Z" duration-ms="5152">
+      <class name="StepDefination.API_Test">
+        <test-method signature="InvalidJoke()[pri:0, instance:StepDefination.API_Test@503d687a]" started-at="2024-02-15T10:37:06Z" name="InvalidJoke" finished-at="2024-02-15T10:37:09Z" duration-ms="2436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidJoke -->
+        <test-method signature="JokeById()[pri:0, instance:StepDefination.API_Test@503d687a]" started-at="2024-02-15T10:37:09Z" name="JokeById" finished-at="2024-02-15T10:37:11Z" duration-ms="2255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JokeById -->
+        <test-method signature="JokeById2()[pri:0, instance:StepDefination.API_Test@503d687a]" started-at="2024-02-15T10:37:11Z" name="JokeById2" finished-at="2024-02-15T10:37:11Z" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JokeById2 -->
+      </class> <!-- StepDefination.API_Test -->
+    </test> <!-- API1Jokes -->
+  </suite> <!-- Default Suite -->
+</testng-results>

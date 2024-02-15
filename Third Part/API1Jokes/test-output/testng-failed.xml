@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="API1Jokes(failed)">
+    <classes>
+      <class name="StepDefination.API_Test">
+        <methods>
+          <include name="InvalidJoke"/>
+        </methods>
+      </class> <!-- StepDefination.API_Test -->
+    </classes>
+  </test> <!-- API1Jokes(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
